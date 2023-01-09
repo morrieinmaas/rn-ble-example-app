@@ -95,6 +95,7 @@ export default function App() {
         <>
           <Button
             title="Scan"
+            disabled={task === Task.Scanning}
             onPress={async () => {
               await central.scan()
               setTask(Task.Scanning)
@@ -107,6 +108,7 @@ export default function App() {
         <>
           <Button
             title="Advertise"
+            disabled={task === Task.Advertising}
             onPress={async () => {
               await peripheral.advertise()
               setTask(Task.Advertising)
