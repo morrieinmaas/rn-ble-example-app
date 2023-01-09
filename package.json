@@ -7,15 +7,24 @@
     "ios": "react-native run-ios"
   },
   "dependencies": {
-    "expo": "~47.0.12",
+    "@animo-id/react-native-ble-didcomm": "0.2.2",
+    "@aries-framework/ble-transport": "file:./aries-framework-ble-transport-v0.1.0.tgz",
+    "@aries-framework/core": "^0.2.5",
+    "@aries-framework/react-native": "^0.2.5",
+    "expo": "~47.0.8",
+    "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",
+    "fs": "^0.0.1-security",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
+    "react-native-fs": "^2.20.0",
+    "react-native-get-random-values": "^1.8.0",
     "react-native-web": "~0.18.9",
-    "expo-splash-screen": "~0.17.5"
+    "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
+    "@animo-id/indy-sdk-expo-plugin": "0.1.0",
     "@babel/core": "^7.12.9",
     "@types/react": "~18.0.14",
     "@types/react-native": "~0.70.6",
