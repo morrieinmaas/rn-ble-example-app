@@ -332,6 +332,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/Frameworks",
 				);
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
@@ -367,6 +368,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/Frameworks",
 				);
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = examplernbletransport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
