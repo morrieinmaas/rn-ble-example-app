@@ -8,10 +8,10 @@
   },
   "dependencies": {
     "@animo-id/react-native-ble-didcomm": "0.2.2",
-    "@aries-framework/core": "^0.2.5",
+    "@aries-framework/core": "^0.3.2",
     "@aries-framework/ble-transport": "file:./aries-framework-ble-transport-v0.1.0.tgz",
-    "@aries-framework/react-native": "^0.2.5",
-    "indy-sdk-react-native": "^0.2.0",
+    "@aries-framework/react-native": "^0.3.2",
+    "indy-sdk-react-native": "^0.3.0",
     "events": "^3.3.0",
     "expo": "~47.0.8",
     "expo-splash-screen": "~0.17.5",

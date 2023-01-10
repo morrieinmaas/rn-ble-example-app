@@ -11,7 +11,7 @@ export const initializeAgent = (
   inboundOptions: StartOptions,
   outboundOptions: StartOptions
 ) => {
-  const agent = new Agent(config, agentDependencies)
+  const agent = new Agent({config, dependencies: agentDependencies})
   const bleInbound = new BleInboundTransport(inboundOptions)
   agent.registerInboundTransport(bleInbound)
   const bleOutbound = new BleOutboundTransport(outboundOptions)
